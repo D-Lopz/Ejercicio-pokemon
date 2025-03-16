@@ -4,7 +4,6 @@ import android.util.Log;
 
 public class Pikachu extends Pokemon implements IElectrico{
 
-
     @Override
     public void atacarPlacaje() {
         System.out.println("Soy pikachu y estoy atacando con placaje");

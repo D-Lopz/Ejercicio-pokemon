@@ -3,7 +3,7 @@ package com.example.actividad_clase_6.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.TextView;
+
 
 import com.example.actividad_clase_6.R;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Pikachu;
