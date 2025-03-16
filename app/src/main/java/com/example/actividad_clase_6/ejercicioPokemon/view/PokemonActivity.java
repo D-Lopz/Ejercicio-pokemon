@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 
 import com.example.actividad_clase_6.R;
+import com.example.actividad_clase_6.ejercicioPokemon.model.Bulbasaur;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Charmander;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Pikachu;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Pokemon;
@@ -16,6 +17,7 @@ public class PokemonActivity extends AppCompatActivity {
     Pikachu pikachuObjeto;
     Charmander charmanderObjeto;
     Squirtle squirtleObjeto;
+    Bulbasaur bulbasaurObjeto;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +63,16 @@ public class PokemonActivity extends AppCompatActivity {
         squirtleObjeto.atacarPistolaAgua();
         squirtleObjeto.atacarHidrobomba();
         squirtleObjeto.atacarHidropulso();
+
+
+        bulbasaurObjeto = new Bulbasaur();
+        bulbasaurObjeto.numPokedex = 1;
+        bulbasaurObjeto.nombre = "Bulbasaur";
+        bulbasaurObjeto.peso = 6.9;
+        bulbasaurObjeto.sexo = "Macho";
+        bulbasaurObjeto.temporada = "Primera";
+        bulbasaurObjeto.tipo = "Planta";
+
     }
 
 
