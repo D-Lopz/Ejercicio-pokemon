@@ -9,7 +9,6 @@ import com.example.actividad_clase_6.R;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Bulbasaur;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Charmander;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Pikachu;
-import com.example.actividad_clase_6.ejercicioPokemon.model.Pokemon;
 import com.example.actividad_clase_6.ejercicioPokemon.model.Squirtle;
 
 public class PokemonActivity extends AppCompatActivity {
