@@ -31,7 +31,8 @@ public class PokemonActivity extends AppCompatActivity {
         pikachuObjeto.tipo = "Electrico";
 
         pikachuObjeto.atacarImpacTrueno();
-        pikachuObjeto.atacarmordisco();
+        pikachuObjeto.atacarRayo();
+        pikachuObjeto.atacarRayoTrueno();
         pikachuObjeto.atacarPunioTrueno();
 
 
