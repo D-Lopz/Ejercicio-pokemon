@@ -72,6 +72,11 @@ public class PokemonActivity extends AppCompatActivity {
         bulbasaurObjeto.temporada = "Primera";
         bulbasaurObjeto.tipo = "Planta";
 
+        bulbasaurObjeto.atacarParalizar();
+        bulbasaurObjeto.atacarDrenaje();
+        bulbasaurObjeto.atacarHojaAfilada();
+        bulbasaurObjeto.atacarLatigoCepa();
+
     }
 
 
