@@ -46,7 +46,7 @@ public class PokemonActivity extends AppCompatActivity {
         charmanderObjeto.tipo = "Fuego";
 
         charmanderObjeto.atacarAscuas();
-        charmanderObjeto.atacarmordisco();
+        charmanderObjeto.atacarLanzallamas();
         charmanderObjeto.atacarPunioFuego();
 
 
